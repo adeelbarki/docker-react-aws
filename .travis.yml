@@ -6,4 +6,4 @@ before_install:
   - docker build -t adeelbarki/docker-react-aws -f Dockerfile.dev .
 
 script:
-  - docker run adeelbarki/docker-react-aws npm run test -- --coverage
+  - docker run -e CI=true adeelbarki/docker-react-aws npm run test -- --coverage
