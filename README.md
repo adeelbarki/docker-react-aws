@@ -14,6 +14,6 @@ Project files included are:
 * docker-compose.yml
 * React basic project files.
 
-Credits:
+### Credits:
  - Special thanks to Stephen Grider for teaching that awesome course "Docker and Kubernetes: The complete Guide" on Udemy.
  Link https://www.udemy.com/docker-and-kubernetes-the-complete-guide/
